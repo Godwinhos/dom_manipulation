@@ -7,11 +7,9 @@
     <link rel="stylesheet" href="/src/output.css">
 </head>
 <body class="bg-[#55B2BF] ">
+    
     <div class="pl-4">
-        <img src="/src/img/download.png" class="w-3xs" alt="">
-    </div>
-    <div class="pl-4">
-        <p class="text-[47px]">Super cool unicode text magic. Use s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶, 𝐛𝐨𝐥𝐝, 𝒊𝒕𝒂𝒍𝒊𝒄𝒔, and 🅜🅞🅡🅔 🄲🅁🄰🅉🅈 ʷlͤoͥoͬkͩing fonts on Facebook, Twitter, and everywhere else.</p>
+        <p class="text-[47px]">Super cool unicode text magic.</p>
     </div>
 
     <div class=" flex gap-96 pl-4">
@@ -19,25 +17,25 @@
             <p class="text-[17px]">your text</p>
         </div>
         <div>
-            <input type="text" id="text" class="w-[1580px] border border-gray-400 h-32 ml-20 bg-[#AAD9DF] focus:outline-none focus:ring-0  ">
+            <input type="text" id="text" class="w-[1580px] md:flex-1 border border-gray-400 h-32 ml-20 bg-[#AAD9DF] focus:outline-none focus:ring-0  " placeholder="write something.....">
         </div>
         
     </div>
     <div class="">
-        <div class="flex gap-[455px] h-10 items-center">
+        <div class="flex gap-[455px] h-10 items-center flex-col md:flex-row md:items-center md:h-10">
 
             <span class="underline text-[18px] pl-4 ">bold serif</span>
             <p id="bold"></p>
         </div>
-        <div class="flex gap-[488px] bg-[#6DBDC9] h-10 items-center">
+        <div class="flex gap-[488px] bg-[#6DBDC9] h-10 items-center md:flex-row  md:items-center  md:h-10">
             <span class="underline text-[18px] pl-4 text-2xl" >italic</span>
             <p id="italic"></p>
         </div>
-        <div class="flex gap-[450px] h-10 items-center" >
+        <div class="flex gap-[450px] h-10 items-center  md:flex-row  md:items-center md:h-10" >
             <span class="underline text-[18px] pl-4">underline</span>
             <p id="underline"></p>
         </div>
-        <div class="flex gap-[440px] h-10m items-center bg-[#6DBDC9] h-10" >
+        <div class="flex gap-[440px] h-10 items-center bg-[#6DBDC9] md:flex-row  md:items-center md:h-10" >
             <span class=" text-[18px] pl-4 ">bold (sans)</span>
             <p id="under"></p>
         </div>
